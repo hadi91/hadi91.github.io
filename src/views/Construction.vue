@@ -35,7 +35,7 @@
 #down-rocket {
   font-size: 6em;
   transform: rotate(314deg);
-  margin-top: 128px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {

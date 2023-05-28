@@ -2,7 +2,7 @@
   <div id="app">
     <!-- <TopNav /> -->
     <router-view></router-view>
-    <!-- <BottomNav /> -->
+    <BottomNav />
   </div>
 </template>
 
@@ -41,13 +41,13 @@ h2 {
 
 <script>
 // import TopNav from "@/components/TopNav.vue";
-// import BottomNav from "@/components/BottomNav.vue";
+import BottomNav from "@/components/BottomNav.vue";
 
 export default {
   name: "App",
   components: {
     // TopNav,
-    // BottomNav
+    BottomNav
   }
 };
 </script>
